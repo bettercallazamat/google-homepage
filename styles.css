@@ -1,0 +1,114 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+nav {
+    padding: 15px 20px 0px 20px;
+    display: block;
+    height: 20%;
+    text-align: right;
+    font-size: 13px;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+    text-align: right;
+}
+
+nav .ninedots {
+    height: 20px;
+}
+
+nav .img-a {
+    height: 35px;
+}
+
+main .logo-container {
+    text-align: center;
+}
+
+img.logo {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+main .search-bar {
+    text-align: center;
+    border: 1px solid rgb(242, 242, 242);;
+    border-radius: 25px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+main form, main img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main .mic-img, main .search-img {
+    height: 30px;
+}
+
+form input {
+    width: 400px;
+    border: none;
+}
+
+.search-buttons {
+    text-align: center;
+}
+
+.search-buttons button {
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(242, 242, 242);
+    color:rgb(95, 99, 104);
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.search-buttons button:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+footer .first-footer, footer .second-footer {
+    background-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    border-top: 1px solid #767676;
+}
+
+.first-footer {
+    padding: 15px 20px 15px 20px;
+}
+
+.second-footer {
+    padding: 14px 20px 14px 20px;
+}
+
+.second-footer span {
+    font-size: 13px;
+    padding-right: 15px
+}
+
+footer .left {
+    display: inline;
+}
+
+footer .right {
+    float: right;
+    padding: 0 !important; 
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
